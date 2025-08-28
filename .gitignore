@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# Always keep these
+!.gitignore
+!proj3given/
+!proj3given/**
+!Backup/
+!Backup/**
