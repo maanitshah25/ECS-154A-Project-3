@@ -1,21 +1,24 @@
-Project 3 README
-Student 1: Maanit Shah (920584512) Student 2: Sai Mannava (920691968)
+# Project 3 README
 
-Project Status
+Student 1: Maanit Shah (920584512)
+Student 2: Sai Mannava (920691968)
 
-Known Issues
+## Project Status
+   
+## Known Issues
 
-Circuit #1 (Panel):
+## Circuit #1:
 
-Circuit #2 (InputBuffer):
+## Circuit #2:
 
-Circuit #3 (Lock):
+## Circuit #3:
 
-References:
+## References
 
-Generative AI Use:
-Prompt #1:
+## Generative AI Use:
 
-Response #1:
+### Prompt #1:
 
-Changes #1:
+### Response #1:
+
+### Changes #1:
