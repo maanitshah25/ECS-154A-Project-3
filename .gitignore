@@ -3,6 +3,7 @@
 
 # Always keep these
 !.gitignore
+!README.md
 !proj3given/
 !proj3given/**
 !Backup/
