@@ -3439,6 +3439,7 @@
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="76" y="63">A</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="16" text-anchor="middle" x="110" y="68">+</text>
       <circ-anchor facing="south" x="110" y="90"/>
+      <circ-port dir="in" pin="170,380" x="60" y="80"/>
       <circ-port dir="in" pin="260,60" x="160" y="70"/>
       <circ-port dir="in" pin="400,80" x="80" y="50"/>
       <circ-port dir="in" pin="710,90" x="140" y="50"/>
@@ -3609,6 +3610,9 @@
       <a name="label" val="A10"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
+    <comp lib="0" loc="(170,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
     <comp lib="0" loc="(200,190)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="A9"/>
@@ -3621,13 +3625,19 @@
     </comp>
     <comp lib="0" loc="(230,190)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="A6"/>
+      <a name="label" val="A8"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
     <comp lib="0" loc="(230,60)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="CIN"/>
       <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(260,110)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+      <a name="width" val="15"/>
     </comp>
     <comp lib="0" loc="(260,160)" name="Splitter">
       <a name="appear" val="center"/>
@@ -3738,12 +3748,6 @@
       <a name="label" val="B5"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
-    <comp lib="0" loc="(50,130)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="A"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-      <a name="width" val="15"/>
-    </comp>
     <comp lib="0" loc="(50,190)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="A14"/>
@@ -3769,12 +3773,6 @@
       <a name="label" val="A8"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
-    <comp lib="0" loc="(520,110)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="B"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-      <a name="width" val="15"/>
-    </comp>
     <comp lib="0" loc="(520,1200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="A9"/>
@@ -3795,9 +3793,15 @@
       <a name="label" val="B13"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
+    <comp lib="0" loc="(580,130)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+      <a name="width" val="15"/>
+    </comp>
     <comp lib="0" loc="(580,170)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="B2"/>
+      <a name="label" val="B12"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
     <comp lib="0" loc="(610,170)" name="Tunnel">
@@ -4350,6 +4354,7 @@
     <wire from="(120,700)" to="(280,700)"/>
     <wire from="(120,970)" to="(120,1100)"/>
     <wire from="(120,970)" to="(170,970)"/>
+    <wire from="(1200,130)" to="(1200,150)"/>
     <wire from="(1200,1300)" to="(1220,1300)"/>
     <wire from="(1210,1090)" to="(1210,1180)"/>
     <wire from="(1210,690)" to="(1210,770)"/>
@@ -4416,6 +4421,7 @@
     <wire from="(250,1170)" to="(250,1230)"/>
     <wire from="(250,1170)" to="(270,1170)"/>
     <wire from="(250,1230)" to="(290,1230)"/>
+    <wire from="(260,110)" to="(260,160)"/>
     <wire from="(260,180)" to="(260,190)"/>
     <wire from="(270,770)" to="(310,770)"/>
     <wire from="(280,350)" to="(320,350)"/>
@@ -4473,7 +4479,7 @@
     <wire from="(480,810)" to="(520,810)"/>
     <wire from="(490,370)" to="(510,370)"/>
     <wire from="(490,390)" to="(530,390)"/>
-    <wire from="(50,130)" to="(50,170)"/>
+    <wire from="(50,110)" to="(260,110)"/>
     <wire from="(50,180)" to="(50,190)"/>
     <wire from="(500,790)" to="(500,920)"/>
     <wire from="(500,790)" to="(550,790)"/>
@@ -4485,9 +4491,9 @@
     <wire from="(510,590)" to="(530,590)"/>
     <wire from="(510,610)" to="(550,610)"/>
     <wire from="(510,990)" to="(530,990)"/>
-    <wire from="(520,110)" to="(520,160)"/>
     <wire from="(520,1200)" to="(540,1200)"/>
     <wire from="(520,1220)" to="(560,1220)"/>
+    <wire from="(520,130)" to="(520,160)"/>
     <wire from="(520,810)" to="(520,900)"/>
     <wire from="(520,810)" to="(550,810)"/>
     <wire from="(520,900)" to="(660,900)"/>
@@ -4512,6 +4518,8 @@
     <wire from="(560,1220)" to="(560,1310)"/>
     <wire from="(560,1220)" to="(590,1220)"/>
     <wire from="(560,1310)" to="(700,1310)"/>
+    <wire from="(580,130)" to="(580,140)"/>
+    <wire from="(580,140)" to="(730,140)"/>
     <wire from="(590,800)" to="(600,800)"/>
     <wire from="(600,380)" to="(610,380)"/>
     <wire from="(600,800)" to="(600,860)"/>
@@ -4584,6 +4592,7 @@
     <wire from="(720,710)" to="(740,710)"/>
     <wire from="(730,1260)" to="(750,1260)"/>
     <wire from="(730,1320)" to="(750,1320)"/>
+    <wire from="(730,140)" to="(730,150)"/>
     <wire from="(740,1050)" to="(740,1060)"/>
     <wire from="(740,1060)" to="(760,1060)"/>
     <wire from="(740,1080)" to="(740,1110)"/>
@@ -4651,7 +4660,8 @@
     <wire from="(960,1240)" to="(960,1330)"/>
     <wire from="(960,1240)" to="(990,1240)"/>
     <wire from="(960,1330)" to="(1100,1330)"/>
-    <wire from="(990,110)" to="(990,160)"/>
+    <wire from="(990,110)" to="(990,130)"/>
+    <wire from="(990,130)" to="(1200,130)"/>
     <wire from="(990,820)" to="(1000,820)"/>
   </circuit>
   <circuit name="REGS15">
