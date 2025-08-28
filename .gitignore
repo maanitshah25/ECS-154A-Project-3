@@ -1,10 +1,14 @@
 # Ignore everything by default
 *
 
-# Always keep these
+# Keep these
 !.gitignore
 !README.md
 !proj3given/
 !proj3given/**
 !Backup/
 !Backup/**
+
+# Quality-of-life ignores
+*.autosave
+.DS_Store
