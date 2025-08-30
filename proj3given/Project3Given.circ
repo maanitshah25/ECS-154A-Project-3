@@ -7222,12 +7222,6 @@
       <a name="output" val="true"/>
       <a name="width" val="15"/>
     </comp>
-    <comp lib="0" loc="(350,350)" name="Splitter">
-      <a name="appear" val="center"/>
-      <a name="facing" val="south"/>
-      <a name="fanout" val="15"/>
-      <a name="incoming" val="1"/>
-    </comp>
     <wire from="(150,80)" to="(170,80)"/>
     <wire from="(300,80)" to="(320,80)"/>
   </circuit>
