@@ -6803,8 +6803,12 @@
       <a name="facing" val="south"/>
       <a name="width" val="15"/>
     </comp>
-    <comp loc="(360,690)" name="ADDER15"/>
-    <comp loc="(560,690)" name="ADDER15"/>
+    <comp loc="(360,690)" name="ADDER15">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp loc="(560,690)" name="ADDER15">
+      <a name="facing" val="south"/>
+    </comp>
     <wire from="(1000,830)" to="(1020,830)"/>
     <wire from="(1010,520)" to="(1010,560)"/>
     <wire from="(1010,520)" to="(1050,520)"/>
