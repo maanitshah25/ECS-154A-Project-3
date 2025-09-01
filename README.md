@@ -19,6 +19,7 @@ Implemented AND, OR, XOR, ADD, SUBTRACT, SLL, SRL, SRA.
 - Youtube: https://www.youtube.com/watch?v=lvYCchzQTyE&ab_channel=DrCraigA.Evans
 
 ## Generative AI Use:
+In DECODEer15 circuit used AI for generating ROM word for opcodes based on instruction type.
 
 ### Prompt #1 (Circuit 3 (Lock)):
 
