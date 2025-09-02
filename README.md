@@ -1,4 +1,4 @@
-# Project 2 README
+# Project 3 README
 
 Student 1: Maanit Shah (920584512)
 Student 2: Sai Mannava (920691968)
