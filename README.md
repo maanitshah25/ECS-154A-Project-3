@@ -16,7 +16,7 @@ Implemented AND, OR, XOR, ADD, SUBTRACT, SLL, SRL, SRA.
 ## Circuit #3 (REGS15):
 
 ## Circut #4 (DECODER15):
-
+For each opcode not able see all the flags change.
 ## Circuit #5 (FlAGS8)
 
 ## Circuit #6 (CPU15):
