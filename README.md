@@ -4,7 +4,7 @@ Student 1: Maanit Shah (920584512)
 Student 2: Sai Mannava (920691968)
 
 ## Project Status
-ADDER15, ALU15, REGS15, DECODER15, FLAGSS8, CPU15 all done and working.
+ADDER15, ALU15, REGS15, IMM15, DECODER15, FLAGS8, CPU15 all done and working.
 
 ## Known Issues
 
