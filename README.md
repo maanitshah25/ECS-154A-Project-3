@@ -18,8 +18,8 @@ Implemented AND, OR, XOR, ADD, SUBTRACT, SLL, SRL, SRA.
 ## Circuit #4 (IMM15):
 Implemented imm2:0, imm3:0, imm6:0, imm9:0, and imm10:4. This could be used for the functions.
 
+## Circuit #5 (DECODER15)
 For each opcode not able see all the flags change.
-## Circuit #5 (FlAGS8)
 
 ## Circuit #6 (FLAGS8):
 
