@@ -15,6 +15,14 @@ Implemented AND, OR, XOR, ADD, SUBTRACT, SLL, SRL, SRA.
 
 ## Circuit #3 (REGS15):
 
+## Circut #4 (DECODER15):
+
+## Circuit #5 (FlAGS8)
+
+## Circuit #6 (CPU15):
+
+## Circuit #7 (IMM15):
+
 ## References
 - Youtube: https://www.youtube.com/watch?v=lvYCchzQTyE&ab_channel=DrCraigA.Evans
 
