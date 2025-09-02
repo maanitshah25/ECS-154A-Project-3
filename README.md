@@ -20,7 +20,7 @@ Implemented AND, OR, XOR, ADD, SUBTRACT, SLL, SRL, SRA.
 
 ## Generative AI Use:
 
-### Prompt #1 (DECODEer15): Explain ROM word for various opcodes, and how opcodes are converted to get hex output bits.
+### Prompt #1 (DECODER15): Explain ROM word for various opcodes, and how opcodes are converted to get hex output bits.
 
 ### Response #1: 
 A ROM word is the fixed binary pattern stored in ROM for each instruction opcode. Each opcode (like ADD, SUB, LOAD) is a binary code that serves as an address to the ROM. When the CPU sends the opcode to ROM, the ROM outputs the corresponding control word.
